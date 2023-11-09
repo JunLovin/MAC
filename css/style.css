@@ -26,3 +26,25 @@ p {
 #moon {
     cursor: pointer;
 }
+
+.img1 {
+    text-align: center;
+}
+
+.img1 img {
+    width: 900px;
+    height: 500px;
+}
+
+.paragraph1 {
+    text-align: center;
+}
+
+.paragraph1 span {
+    font-weight: bold;
+}
+
+.paragraph p {
+    width: 500px;
+    text-align: left;
+}
