@@ -8,6 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <title>Contáctanos</title>
     <link rel="shortcut icon" href="img/1699423333856.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
     <div class="body">
@@ -36,7 +37,33 @@
               </div>
             </div>
           </nav>
+          <div class="container">
+            <h1>Contáctanos</h1>
+            <p>Nos ubicamos en el sector La Delicia y estamos presentes de lunes a viernes, si quieres comunicarte con nosotros puedes ir a la Unidad Educativa, o puede contactar mediante un correo electrónico por aquí: </p>
+            <div class="formulario">
+              <form class="contacto">
+                  <span class="textName">Full Name</span><br>
+                  <input type="text" class="nameContact" placeholder="Full Name"><br><br>
+                  <span class="textEmail">Email Addres</span><br>
+                  <input type="text" class="emailAddres" placeholder="example@domain.com"><br><br>
+                  <span class="textSubject">Subject</span><br>
+                  <input type="text" class="subject" placeholder="Enter your subject"><br><br>
+                  <span class="textMessage">Message</span><br>
+                  <textarea class="message" placeholder="Type your message..."></textarea><br><br>
+            <button class="submitButton" type="submit">Submit</button>
+              </form>
+          </div>
+          </div>
     </div>
+    <script>
+      body = document.queryselector('body')
+      moon = document.querySElector('#moon')
+
+      moon.onclick = function(){
+        moon.classList.toggle('active')
+        body.classList.toggle('active')
+      }
+    </script>
     <script src="js/index.js"></script>
 </body>
 </html>

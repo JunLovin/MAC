@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: 1s;
+    transition: .3s;
     font-family: 'Nanum Gothic', sans-serif;
 }
 
