@@ -28,3 +28,16 @@ body.active {
     width: 300px;
     height: 200px;
 }
+
+.submitButton {
+    border: none;
+    border-radius: 15px;
+    background: #ccc;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.submitButton:active {
+    background: #aaa;
+}
